@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tema8yrok4", "tema8yrok4\te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "check", "check\check.csproj", "{75617A44-CBCC-44B7-87E2-D2E5A7F3D82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema8yr2", "tema8yr2\tema8yr2.csproj", "{9AC60A0E-41BF-4CF6-86FC-4A2261B34A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tema8yr2", "tema8yr2\tema8yr2.csproj", "{9AC60A0E-41BF-4CF6-86FC-4A2261B34A79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while do while", "while do while\while do while.csproj", "{FF409994-A094-40FB-B6C9-AC83DE156EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while dowhile", "while dowhile\while dowhile.csproj", "{7155DD84-CCBA-47EE-9D67-FF5DA494447B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{9AC60A0E-41BF-4CF6-86FC-4A2261B34A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC60A0E-41BF-4CF6-86FC-4A2261B34A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC60A0E-41BF-4CF6-86FC-4A2261B34A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF409994-A094-40FB-B6C9-AC83DE156EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF409994-A094-40FB-B6C9-AC83DE156EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF409994-A094-40FB-B6C9-AC83DE156EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF409994-A094-40FB-B6C9-AC83DE156EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7155DD84-CCBA-47EE-9D67-FF5DA494447B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7155DD84-CCBA-47EE-9D67-FF5DA494447B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7155DD84-CCBA-47EE-9D67-FF5DA494447B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7155DD84-CCBA-47EE-9D67-FF5DA494447B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
