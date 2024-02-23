@@ -35,19 +35,19 @@
 //    Console.WriteLine(a);
 //    i++;
 //}
-int sum = 0;
-int a = 0;
-int i = 1;
-while (i > 0)
-{
-    Console.WriteLine("Введите число: ");
-    a = int.Parse(Console.ReadLine());
-    sum += a;
-    i++;
+//int sum = 0;
+//int a = 0;
+//int i = 1;
+//while (i > 0)
+//{
+//    Console.WriteLine("Введите число: ");
+//    a = int.Parse(Console.ReadLine());
+//    sum += a;
+//    i++;
     
-    if (a == 0)
-    {
+//    if (a == 0)
+//    {
         
-        Console.WriteLine($"Сумма указаных чисел = {sum}"); break;
-    }
-}
+//        Console.WriteLine($"Сумма указаных чисел = {sum}"); break;
+//    }
+//}
