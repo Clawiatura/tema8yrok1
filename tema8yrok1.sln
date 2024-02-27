@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while do while", "while do 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while dowhile", "while dowhile\while dowhile.csproj", "{7155DD84-CCBA-47EE-9D67-FF5DA494447B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for", "for\for.csproj", "{B4D52ACC-D4C5-4C70-9A19-D1B847D52A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for", "for\for.csproj", "{B4D52ACC-D4C5-4C70-9A19-D1B847D52A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mas1", "mas1\mas1.csproj", "{BBFF8292-142D-45DC-9381-0E9773FA2E53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B4D52ACC-D4C5-4C70-9A19-D1B847D52A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D52ACC-D4C5-4C70-9A19-D1B847D52A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D52ACC-D4C5-4C70-9A19-D1B847D52A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFF8292-142D-45DC-9381-0E9773FA2E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFF8292-142D-45DC-9381-0E9773FA2E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFF8292-142D-45DC-9381-0E9773FA2E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFF8292-142D-45DC-9381-0E9773FA2E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
