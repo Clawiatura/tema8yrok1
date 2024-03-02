@@ -74,8 +74,7 @@ Console.WriteLine();
 
 Console.WriteLine($"AVG 1.2 masiva: {sum/mas4.Length:F2} AVG 3.4 masiva: {sum1/mas5.Length:F2}");
 Console.WriteLine($"multiplication: {sum/mas4.Length * sum1 / mas5.Length:F2}");
-
-
+//
 
 
 
