@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for", "for\for.csproj", "{B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mas1", "mas1\mas1.csproj", "{BBFF8292-142D-45DC-9381-0E9773FA2E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mass i svoistva", "mass i svoistva\mass i svoistva.csproj", "{81BF49ED-16A5-44D3-B9EE-DFF350B7C9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mass i svoistva", "mass i svoistva\mass i svoistva.csproj", "{81BF49ED-16A5-44D3-B9EE-DFF350B7C9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvumernuemassivu", "Dvumernuemassivu\Dvumernuemassivu.csproj", "{2A11EF7C-C2E7-429A-9B27-173E661A464C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{81BF49ED-16A5-44D3-B9EE-DFF350B7C9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BF49ED-16A5-44D3-B9EE-DFF350B7C9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81BF49ED-16A5-44D3-B9EE-DFF350B7C9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A11EF7C-C2E7-429A-9B27-173E661A464C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A11EF7C-C2E7-429A-9B27-173E661A464C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A11EF7C-C2E7-429A-9B27-173E661A464C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A11EF7C-C2E7-429A-9B27-173E661A464C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
