@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "masivchiki", "masivchiki\ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mnogomernuemasivu", "mnogomernuemasivu\mnogomernuemasivu.csproj", "{53DF1D48-905B-4382-BDF8-1C1309A2F3E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "masivstrok", "masivstrok\masivstrok.csproj", "{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "masivstrok", "masivstrok\masivstrok.csproj", "{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igruwka", "Igruwka\Igruwka.csproj", "{98DF16EC-12FE-405A-A639-D3861FCC2A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
