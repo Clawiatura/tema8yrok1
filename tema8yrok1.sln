@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mnogomernuemasivu", "mnogom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "masivstrok", "masivstrok\masivstrok.csproj", "{74E1C1FE-1132-4A06-8EA8-9322DBCD96CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igruwka", "Igruwka\Igruwka.csproj", "{98DF16EC-12FE-405A-A639-D3861FCC2A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Igruwka", "Igruwka\Igruwka.csproj", "{98DF16EC-12FE-405A-A639-D3861FCC2A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zmeika", "zmeika\zmeika.csproj", "{0F17810B-228D-4B9D-AFE6-8F8A14F3A6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funksii", "Funksii\Funksii.csproj", "{E639F666-B4B8-4C9C-BCEE-71A97315E109}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DF16EC-12FE-405A-A639-D3861FCC2A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F17810B-228D-4B9D-AFE6-8F8A14F3A6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F17810B-228D-4B9D-AFE6-8F8A14F3A6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F17810B-228D-4B9D-AFE6-8F8A14F3A6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F17810B-228D-4B9D-AFE6-8F8A14F3A6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E639F666-B4B8-4C9C-BCEE-71A97315E109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E639F666-B4B8-4C9C-BCEE-71A97315E109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E639F666-B4B8-4C9C-BCEE-71A97315E109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E639F666-B4B8-4C9C-BCEE-71A97315E109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
