@@ -30,17 +30,27 @@ for (int i = 0; i < mas2.GetLength(0); i++)
 }
 int[,] mas = new int[4, 4];
 
-long sum()
+void sum(int[,] mas, int[,] mas1)
+
 {
   for (int i = 0; i < mas.GetLength(0);i++)
     {
         for (int j = 0; j < mas.GetLength(1); j++)
         {
-            mas[i, j] = mas1[i, j] + mas2[i, j];
-            return mas[i, j];
+          mas[i, j] = mas1[i, j] + mas2[i, j];
+            Console.Write(mas[i,j]+" ");
         }
-        
+        Console.WriteLine();
+
     }
+    
+    }
+string[] GetTypeAndMax(int[,] mas)
+{ 
 }
-Console.WriteLine(sum(mas1,mas2);
+  
+
+
+
+
 
