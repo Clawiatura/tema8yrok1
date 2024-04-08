@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chetverg", "chetverg\chetve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Massivu", "Massivu\Massivu.csproj", "{EA007698-5262-4D75-9998-BF28EE8A1777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fail", "fail\fail.csproj", "{A52166C9-B195-45B6-B5C8-F2ED8974AB14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{EA007698-5262-4D75-9998-BF28EE8A1777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA007698-5262-4D75-9998-BF28EE8A1777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA007698-5262-4D75-9998-BF28EE8A1777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52166C9-B195-45B6-B5C8-F2ED8974AB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52166C9-B195-45B6-B5C8-F2ED8974AB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52166C9-B195-45B6-B5C8-F2ED8974AB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52166C9-B195-45B6-B5C8-F2ED8974AB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
