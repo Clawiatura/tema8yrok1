@@ -5,7 +5,7 @@
 //пользователя
 Console.WriteLine("Что вы хотите удалить файл или папку с файлами?");
 string FileOrDir = Console.ReadLine();
-if (FileOrDir == "файл")
+if (FileOrDir == "файл" || FileOrDir == "Файл")
 {
     Console.WriteLine("Введите путь к файлу: ");
     string FilePath = Console.ReadLine();
@@ -13,7 +13,10 @@ if (FileOrDir == "файл")
     Console.WriteLine("Вы уверены что хотите удалить?");
     string YesOrNO = Console.ReadLine();
     if (YesOrNO == "Да" || YesOrNO == "да")
+    {
         File.Delete(FilePath);
+        Console.WriteLine("Файл успешно удален");
+    }
     else Console.WriteLine("Файл не будет удалено.");
 }
 else
@@ -22,6 +25,9 @@ else
     Console.WriteLine("Вы уверены что хотите удалить?");
     string YesOrNO = Console.ReadLine();
     if (YesOrNO == "Да" || YesOrNO == "да")
+    {
         Directory.Delete(DirPath);
+        Console.WriteLine("Удаленно");
+    }
     else Console.WriteLine("Папка не будет удаленна.");
 }
