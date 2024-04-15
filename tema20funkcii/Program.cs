@@ -4,25 +4,31 @@
 //результат в зависимости от своего выбора.
 
 Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите действие: '*', '+','~'");
+int x = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите действие: '*', '+','~','^'");
 char action = char.Parse(Console.ReadLine());
-int act(int x, char y)
+Console.WriteLine("Введите второе число: ");
+int y = int.Parse(Console.ReadLine());
+int act(int x, int y)
 {
-    int acti = x;
+    
     int res = 0;
 
-    if (y == '*')
+    if (action == '*')
     {
-        res = x & acti;
+        res = x & y;
     }
-    else if (y == '+')
+    else if (action == '+')
     {
-        res = x | acti; 
+        res = y | x;
     }
-    else if (y == '~')
+    else if (action == '~')
     {
-        res = ~acti;
+       res = ~x+~y;
+    }
+    else if (action == '^')
+    {
+        res = x ^ y;
     }
 
     return res;
@@ -30,4 +36,4 @@ int act(int x, char y)
 
 
 
-Console.WriteLine(act(n,action));
+Console.WriteLine(act(x,y));
