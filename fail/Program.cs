@@ -1,33 +1,34 @@
-﻿//Напишите программу, которая позволяет пользователю удалить
-//файл или папку. Программа должна запрашивать путь к файлу
-//или папке, которую нужно удалить, и выполнить удаление. Перед
-//удалением, программа должна запрашивать подтверждение
-//пользователя
-Console.WriteLine("Что вы хотите удалить файл или папку с файлами?");
-string FileOrDir = Console.ReadLine();
-if (FileOrDir == "файл" || FileOrDir == "Файл")
-{
-    Console.WriteLine("Введите путь к файлу: ");
-    string FilePath = Console.ReadLine();
+﻿//Напишите программу, которая позволяет пользователю перемещаться по
+//файловой системе компьютера.
+//На экране должна быть видна текущая директория пользователя и под
+//этим выводом ожидаться название папки, в которую необходимо перейти.
+//После ввода, пользователь переходит в эту папку
 
-    Console.WriteLine("Вы уверены что хотите удалить?");
-    string YesOrNO = Console.ReadLine();
-    if (YesOrNO == "Да" || YesOrNO == "да")
+
+string currentDirectory = Directory.GetCurrentDirectory();
+Console.WriteLine("Текущая директория: " + currentDirectory);
+
+while (true)
+{
+    Console.Write("Введите название папки, в которую необходимо перейти (или 'exit' для выхода): ");
+    string folderName = Console.ReadLine();
+
+    if (folderName.ToLower() == "exit")
     {
-        File.Delete(FilePath);
-        Console.WriteLine("Файл успешно удален");
+        break;
     }
-    else Console.WriteLine("Файл не будет удалено.");
-}
-else
-{ Console.WriteLine("Введите путь к папке: ");
-    string DirPath = Console.ReadLine();
-    Console.WriteLine("Вы уверены что хотите удалить?");
-    string YesOrNO = Console.ReadLine();
-    if (YesOrNO == "Да" || YesOrNO == "да")
+
+    string newDirectory = Path.Combine(currentDirectory, folderName);
+
+    if (Directory.Exists(newDirectory))
     {
-        Directory.Delete(DirPath);
-        Console.WriteLine("Удаленно");
+        currentDirectory = newDirectory;
+        Directory.SetCurrentDirectory(currentDirectory);
+        Console.WriteLine("Текущая директория: " + currentDirectory);
     }
-    else Console.WriteLine("Папка не будет удаленна.");
+    else
+    {
+        Console.WriteLine("Папка не найдена!");
+    }
 }
+
