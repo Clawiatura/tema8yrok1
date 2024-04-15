@@ -1,50 +1,27 @@
-﻿using System.Text;
-
-Console.WriteLine("Введите путь к файлу: ");
-string path = Console.ReadLine();
-DirectoryInfo dirInfo = new DirectoryInfo($@"{path}");
-FileInfo[] file = dirInfo.GetFiles();
-Console.WriteLine("Введите текст, который нужно записать в файл");
-string textPath = Console.ReadLine();
-using (FileStream fStream = new FileStream("file.txt", FileMode.OpenOrCreate)) // Не записывается в файл 
+﻿//Напишите программу, которая позволяет пользователю удалить
+//файл или папку. Программа должна запрашивать путь к файлу
+//или папке, которую нужно удалить, и выполнить удаление. Перед
+//удалением, программа должна запрашивать подтверждение
+//пользователя
+Console.WriteLine("Что вы хотите удалить файл или папку с файлами?");
+string FileOrDir = Console.ReadLine();
+if (FileOrDir == "файл")
 {
-    byte[] buffer = Encoding.Default.GetBytes(textPath);
-    await fStream.WriteAsync(buffer, 0, buffer.Length);
-    Console.WriteLine("Запись сохранена");
+    Console.WriteLine("Введите путь к файлу: ");
+    string FilePath = Console.ReadLine();
+
+    Console.WriteLine("Вы уверены что хотите удалить?");
+    string YesOrNO = Console.ReadLine();
+    if (YesOrNO == "Да" || YesOrNO == "да")
+        File.Delete(FilePath);
+    else Console.WriteLine("Файл не будет удалено.");
 }
-
-
-
-
-
-string filePath = @"C:\DZ\file1.txt";
-using (StreamWriter writer = new StreamWriter(filePath))
-{
-    writer.WriteLine("123456");
-}
-Console.WriteLine("Файл создан");
-string filePath1 = @"C:\DZ\file2.txt";
-using (StreamWriter writer = new StreamWriter(filePath1))
-{
-    writer.WriteLine("654321");
-}
-Console.WriteLine("Файл создан");
-
-
-
-using(StreamReader reader = new StreamReader(filePath)) // В классе писали название файла в системе "file.txt, пробовал так же, ошибка выскакивала" 
-{
-    string text = await reader.ReadToEndAsync();
-    Console.WriteLine(text);
-
-
-}
-
-using (StreamReader reader = new StreamReader(filePath1)) // В классе писали название файла в системе "file1.txt, пробовал так же, ошибка выскакивала"
-{
-    string text = "";
-    while ((text = await reader.ReadLineAsync()) != null)
-    {
-        Console.WriteLine(text);
-    }
+else
+{ Console.WriteLine("Введите путь к папке: ");
+    string DirPath = Console.ReadLine();
+    Console.WriteLine("Вы уверены что хотите удалить?");
+    string YesOrNO = Console.ReadLine();
+    if (YesOrNO == "Да" || YesOrNO == "да")
+        Directory.Delete(DirPath);
+    else Console.WriteLine("Папка не будет удаленна.");
 }
