@@ -43,15 +43,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chetverg", "chetverg\chetverg.csproj", "{51D606F7-3D4F-4A33-8929-BD8F48C9DD5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Massivu", "Massivu\Massivu.csproj", "{EA007698-5262-4D75-9998-BF28EE8A1777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Massivu", "Massivu\Massivu.csproj", "{EA007698-5262-4D75-9998-BF28EE8A1777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fail", "fail\fail.csproj", "{A52166C9-B195-45B6-B5C8-F2ED8974AB14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fail", "fail\fail.csproj", "{A52166C9-B195-45B6-B5C8-F2ED8974AB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fail2", "fail2\fail2.csproj", "{0029A0A9-AFCE-416A-9FDC-88C752735553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fail2", "fail2\fail2.csproj", "{0029A0A9-AFCE-416A-9FDC-88C752735553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkcii", "Funkcii\Funkcii.csproj", "{1CC7DE67-8534-42AA-B623-8DE4988A5F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funkcii", "Funkcii\Funkcii.csproj", "{1CC7DE67-8534-42AA-B623-8DE4988A5F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema20funkcii", "tema20funkcii\tema20funkcii.csproj", "{4D4902F0-41F2-45EF-B3BC-164F695BB117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tema20funkcii", "tema20funkcii\tema20funkcii.csproj", "{4D4902F0-41F2-45EF-B3BC-164F695BB117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "try", "try\try.csproj", "{6C5F0568-6D8C-47D9-B307-1D47972F405F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{4D4902F0-41F2-45EF-B3BC-164F695BB117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4902F0-41F2-45EF-B3BC-164F695BB117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4902F0-41F2-45EF-B3BC-164F695BB117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5F0568-6D8C-47D9-B307-1D47972F405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5F0568-6D8C-47D9-B307-1D47972F405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5F0568-6D8C-47D9-B307-1D47972F405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5F0568-6D8C-47D9-B307-1D47972F405F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
